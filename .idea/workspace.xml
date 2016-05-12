@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be8b6d45-24ab-48e6-988d-a1d6806b829c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aboutus.shtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faq.shtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/futurapt-book-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsFooter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gsHeader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Fem-L.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Fem-R.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Mal-L.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Mal-R.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/android-chrome-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/apple-touch-icon-180x180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/eml.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/facebook43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gslogo-l.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gslogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-google-plus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mstile-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mstile-70x70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pagebg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/phn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slideshow01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slideshow02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slideshow03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slideshow04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slideshow05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.shtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testimonials.shtml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/browserconfig.xml" afterPath="$PROJECT_DIR$/browserconfig.xml" />
-    </list>
+    <list default="true" id="be8b6d45-24ab-48e6-988d-a1d6806b829c" name="Default" comment="" />
     <ignored path="geekserv.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -345,12 +312,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463090700002</updated>
-      <workItem from="1463090701219" duration="5031000" />
+      <workItem from="1463090701219" duration="5108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5031000" />
+    <option name="totallyTimeSpent" value="5108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
