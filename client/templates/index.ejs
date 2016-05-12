@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geek Serv - Seattle Computer Repair & Virus Remova</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" type="image/png" sizes="192x192" href="../assets/images/android-chrome-192x192.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon-180x180.png">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5eb3cf">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#c8e5ec">
+	<meta name="title" content="Geek Serv Seattle - On-Site Computer Repair & Virus Removal" />
+	<meta name="keywords" content="computer repair seattle, seattle pc repair, fix viruses, home computer repair, west seattle computer repair, computer technicians, computer repair bellevue, seattle virus removal, computer service, desktop repair, spyware removal" />
+	<meta name="description" content="Seattle & Bellevue's Best On-Site Computer Repair & Virus Removal Service. Let Our Technicians Fix Viruses & Repair PCs @ Your Home Or Business. We're Not Geek Squad." />
+	<link rel="stylesheet" type="text/css" href="../stylesheets/gs.css">
+	<script type="text/javascript" src="../js/gs.js"></script>
+	<script>
+		var hdrNavA = [["HOME", "index"], ["ABOUT US", "aboutus"], ["TESTIMONIALS", "testimonials"], ["FAQs", "faq"]];
+	</script>
+</head>
+<script>
+var slide = 0, images = ["../assets/images/slideshow01.jpg", "../assets/images/slideshow02.jpg", "../assets/images/slideshow03.jpg", "../assets/images/slideshow04.jpg", "../assets/images/slideshow05.jpg"];
+function pageStart(){
+	setTimeout(changePic, 6007);
+	dGet("sliImg").style.opacity = 1;
+	dGet("svcDescMR").style.display = "inline-block";
+	onStart();}
+function pageReorg(){
+	var w = document.documentElement.clientWidth;	
+	dGet("sliImg").style.display = (w > 457 ? "initial" : "none");
+	dGet("sliDivTxt").style.display = (w > 457 ? "none" : "initial");
+	dGet("tstiLblDiv").innerHTML = (w > 457 ? '<h2>What Our Clients Are Saying</h2>' : '<h2>Testimonials</h2>');
+	dGet("tstiTopL").style.width =
+	dGet("tstiTopR").style.width = (w > 743 ? "175px" : w > 457 ? "150px" : "97px");
+	reorg();}
+function changePic(){
+	slide = (slide == images.length-1 ? 0 : slide+1);
+	dGet("sliDiv").style.backgroundImage = 'url(' + images[slide] + ')';
+	setTimeout(changeOpa, 67);}	
+function changeOpa(){
+	if(dGet("sliImg").style.opacity < 0){
+		dGet("sliImg").src = images[slide];
+		dGet("sliImg").style.opacity = "1.0";
+		setTimeout(changePic, 6007);}
+	else{
+		dGet("sliImg").style.opacity = (Number(dGet("sliImg").style.opacity)-0.1).toFixed(1);
+		setTimeout(changeOpa, 67);}}
+</script>
+<% include gsHeader.html %>
+<%- include('' + contents) %>
+<% include gsFooter.html %>
+<!--body is opened in gaHeader.html-->
+</body>
+</html>

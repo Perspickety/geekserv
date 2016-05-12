@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<!--#include file="gsHeader.html"-->
+<script>
+function pageStart(){
+	var hdrNavA = [["HOME", "index"], ["ABOUT US", "aboutus"], ["TESTIMONIALS", "testimonials"], ["FAQs", "faq"]];
+	dGet("hdrNavA1").innerHTML = hdrNavA[0][0];
+	dGet("hdrNavA1").setAttribute("href", hdrNavA[0][1]);
+	dGet("hdrNavA2").innerHTML = hdrNavA[1][0];
+	dGet("hdrNavA2").setAttribute("href", hdrNavA[1][1]);
+	dGet("hdrNavA3").innerHTML = hdrNavA[3][0];
+	dGet("hdrNavA3").setAttribute("href", hdrNavA[3][1]);
+	onStart();}
+function pageReorg(){
+	var w = document.documentElement.clientWidth;	
+	dGet("tstiLblDiv").innerHTML = (w > 457 ? '<h2>What Our Clients Are Saying</h2>' : '<h2>Testimonials</h2>');
+	dGet("tstiTopL").style.width =
+	dGet("tstiTopR").style.width = (w > 743 ? "175px" : w > 457 ? "150px" : "97px");
+	reorg();}</script>
+	
+<div id="bdyPrntDiv">
+	<div id="tstiDiv" class="bdyDiv">
+		<div id="tstiLblDiv" class="lblDiv">
+			<h2>What Our Clients Are Saying</h2></div>
+		<div id="tstiTable">
+		<table><tr><td id="tstiTopL" rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Mal-R.png" class="tstiPic tstiPicR"></div></td><td colspan="2">Geek Serv was prompt, knew what they were doing, and even helped with an auto industry-specific software we use. My problem was corrected quickly and very much to my satisfaction. </td></tr>
+			<tr><td colspan="2" style="text-align: right;">- Bob H. @ Rainier Autobody</td></tr>
+			<tr><td>&nbsp;</td><td id="tstiTopR" rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Fem-L.png" class="tstiPic tstiPicL"></div></td></tr>
+			<tr><td colspan ="2">Recently I needed a more powerful laptop and was expecting to pay at least twice what I ended up paying. I also felt listened to and as a result, got the help I needed. I wouldn't hesitate to recommend Geek Serv for any computer need I might have.</td></tr>
+			<tr><td colspan="2" style="text-align: right;">- Susan K. (Madison Valley, Seattle)</td></tr>
+			<tr><td colspan="3"><br></td></tr>
+			
+			<tr><td rowspan="3"><div class="tstiPicBack"><img src="../assets/images/Fem-R.png" class="tstiPic tstiPicR"></div></td><td colspan="2">I have used Geek Serv twice and both times I have been very happy with the knowledge, speed, and success of Heath's work. I am a fairly ignorant computer user, yet Heath was patient and understanding about my humble knowledge. I would recommend them to anyone! </td></tr>
+			<tr><td colspan="2" style="text-align: right;">- Janet T. (Madison Valley, Seattle)</td></tr>
+			<tr><td>&nbsp;</td><td rowspan="3"><div class="tstiPicBack"><img src="../assets/images/Mal-L.png" class="tstiPic tstiPicL"></div></td></tr>
+			<tr><td colspan ="2">Thank you for your excellent and timely service. Because of your professionalism I was able to recover valuable documents and return quickly to the business at hand. I am happy to recommend your service.</td></tr>
+			<tr><td colspan="2" style="text-align: right;">- William J. (Magnolia, Seattle)</td></tr>
+			<tr><td colspan="3"><br></td></tr>
+			
+			<tr><td rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Mal-R.png" class="tstiPic tstiPicR"></div></td><td colspan="2">I want to thank you and Geek Serv for helping me with my tech problems. I was very pleased with your assistance and will recommend your company to others. This was such a better experience than the one I had with the Geek Squad. You were so patient and understanding. I hope you get many others who find your services helpful. I have your card in case I need further service. Until then, thank you for your help. I appreciate it greatly. </td></tr>
+			<tr><td colspan="2" style="text-align: right;">- Rusty M. (Downtown Seattle)</td></tr>
+			<tr><td>&nbsp;</td><td rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Fem-L.png" class="tstiPic tstiPicL"></div></td></tr>
+			<tr><td colspan ="2">Whenever I have a problem all I have to do is call Geek Serv and they look at my laptop. If there is anything wrong with it they tell me what is wrong and how much it would cost. Not even A-1 Best Computer does that, they charge an arm to get food in your computer, to install a faulty virus protection, and to take important files off your computer to "make room for the other programs". Whose computer do they think it is? Also, they jack their prices up. Geek Serv has the most reasonable prices for a student out there. They even have a virus protection program that works, for free!</td></tr>
+			<tr><td colspan="2" style="text-align: right;">- Laura M. (Ballard, Seattle)</td></tr>
+			<tr><td colspan="3"><br></td></tr>
+			
+			<tr><td rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Fem-R.png" class="tstiPic tstiPicR"></div></td><td colspan="2">As a non-techy single woman of a certain age, I have been an easy target for computer services with less than honorable service. Not so with Geek Serv! Charlie and Heath are as honest as they are honorable; completely upfront about estimated time and expense for repair or replacement; and thorough and articulate in their diagnoses, prognoses, and guidance. Prompt and patient, their location makes it possible for them to serve a population that otherwise would have to go a great distance and pay a great price. Thank you, thank you. </td></tr>
+			<tr><td colspan="2" style="text-align: right;">- Carie C. (Int'l District, Seattle)</td></tr>
+			<tr><td>&nbsp;</td><td rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Fem-L.png" class="tstiPic tstiPicL"></div></td></tr>
+			<tr><td colspan ="2">Despite Charlie's best efforts, my computer could not be resurrected so he set me up with a new one at a reasonable cost. The best thing about it is that I now have a fast connection versus the very slow one I had with my old computer. And the next best thing is that Charlie continues helping me get used to the new operating system. Thanks, Geek Serv!</td></tr>
+			<tr><td colspan="2" style="text-align: right;">- Renate P. (Blue Ridge, Seattle)</td></tr>
+			<tr><td colspan="3"><br></td></tr>
+			
+			<tr><td rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Fem-R.png" class="tstiPic tstiPicR"></div></td><td colspan="2">What a great experience! I was just about to toss my computer but decided to give it one last chance. I Googled "mobile computer repair" and found Geek Serv. Heath answered the phone and right away told me there was a good chance my computer was worth fixing. He was at my home within a few hours and saved my PC and my sanity for a fraction of the cost of a new one. I am a happy camper and am recommending Geek Serv to all of my friends, who, like me, have NO idea why their computers are acting up. Thanks, Geek Serv! </td></tr>
+			<tr><td colspan="2" style="text-align: right;">- Meryl A. (Seward Park, Seattle)</td></tr>
+			<tr><td>&nbsp;</td><td rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Mal-L.png" class="tstiPic tstiPicL"></div></td></tr>
+			<tr><td colspan ="2">I am satisfied with Geek Serv service. Heath was very polite and he solved my problem professionally. My computer would not work because it had so many viruses in it. He recommended a new refurbished computer replacement because the time and cost to fix the problem was close to the cost of the new computer. I am very happy with my new computer because it is much better than the old one. I highly recommended them to anyone.</td></tr>
+			<tr><td colspan="2" style="text-align: right;">- Ted V. (Kirkland)</td></tr>
+			<tr><td colspan="3"><br></td></tr>
+			
+			<tr><td rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Mal-R.png" class="tstiPic tstiPicR"></div></td><td colspan="2">Charles has visited us several times at our home to get our wireless PC, laptop, and printer all up and running. We have been extremely pleased with his service--prompt, available, highly proficient, efficient, and effective. Besides, he is friendly and patient with us novices. He always solved our problems if there was a solution. Furthermore, he is readily available by e-mail for follow-up questions and teaching. He has earned our trust and appreciation, and can be highly recommended.</td></tr>
+			<tr><td colspan="2" style="text-align: right;">- David O. (First Hill, Seattle)</td></tr>
+			<tr><td>&nbsp;</td><td rowspan="3" style="width: 200px;"><div class="tstiPicBack"><img src="../assets/images/Mal-L.png" class="tstiPic tstiPicL"></div></td></tr>
+			<tr><td colspan ="2">Your glowing review here... Call now!</td></tr>
+			<tr><td colspan="2" style="text-align: right;">- You (Seattle Area)</td></tr>
+			<tr><td colspan="3"><br></td></tr></table></div></div></div>
+<!--#include file="gsFooter.html" -->
+</html>

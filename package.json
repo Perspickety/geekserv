@@ -1,0 +1,23 @@
+{
+  "name": "geekserv",
+  "version": "0.0.0",
+  "description": "marketing site",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "ejs": "^2.4.1",
+    "express": "^4.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "geekserv"
+  ],
+  "author": "eriknorman",
+  "engines": {
+    "node": "0.12.x"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<!--#include file="gsHeader.html"-->
+<script>
+function pageStart(){
+	var hdrNavA = [["HOME", "index"], ["ABOUT US", "aboutus"], ["TESTIMONIALS", "testimonials"], ["FAQs", "faq"]];
+	dGet("hdrNavA1").innerHTML = hdrNavA[0][0];
+	dGet("hdrNavA1").setAttribute("href", hdrNavA[0][1]);
+	dGet("hdrNavA2").innerHTML = hdrNavA[1][0];
+	dGet("hdrNavA2").setAttribute("href", hdrNavA[1][1]);
+	dGet("hdrNavA3").innerHTML = hdrNavA[2][0];
+	dGet("hdrNavA3").setAttribute("href", hdrNavA[2][1]);
+	onStart();}
+function pageReorg(){
+	var w = document.documentElement.clientWidth;	
+	reorg();}</script>
+	
+<div id="bdyPrntDiv">
+	<div id="faqDiv" class="bdyDiv">
+		<div class="lblDiv">
+		<h1>Frequently Asked Questions</h1></div>
+		<div class="txtP">
+			<ul id="faqLst">
+				<h2>+ What Are Your Rates?</h2>
+				<li class="faqLi">We come to your home or business for as little as $80!<br>Geek Serv technicians charge $40 for the visit and $40 per quarter-hour; for example, a 30-minute visit would cost $120. Our visit fee may be more for clients outside of our normal service area - call for details.</li>
+				<h2>+ Which Methods Of Payment Do You Accept?</h2>
+				<li class="faqLi">Geek Serv technicians accept cash, check, debit, and all major credit cards - due at the end of your visit.</li>
+				<h2>+ Where Are You Located?</h2>
+				<li class="faqLi">Geek Serv mostly performs on-site or in-home service, so we don't have a retail location. If you need to drop off your computer with a technician, call and we can arrange the details.</li>
+				<h2>+ Which Areas Do You Serve?</h2>
+				<li class="faqLi">Our normal service area includes the greater Seattle area as far north as Edmonds/Lynnwood, as far east as Issaquah, as far south as Maple Valley, Auburn, and Federal Way; a good rule of thumb is anywhere within 30 minutes of downtown Seattle. Our visit fee may be more for clients outside of our normal service area - call for details.</li>
+				<h2>+ What Kind Of Devices Do You Service?</h2>
+				<li class="faqLi">Geek Serv services both Macs and PCs, all related peripherals and accessories including printers and networking equipment, tablets, and phones. Currently we do not service appliances, car stereos, or audio/visual equipment (including TVs).</li>
+				<h2>+ Do You Fix Busted Screens?</h2>
+				<li class="faqLi">At this time we do not repair or replace built-in screens, including ones on laptops, tablets, or phones.</li>
+				<h2>+ What Is A Computer Virus?</h2>
+				<li class="faqLi">A virus is a piece of software or code that you don't want on your computer. There are many classes and subcategories of viruses including trojans, rootkits, keyloggers, tracking software, ad software, search hijackers, and fake anti-virus programs. Geek Serv technicians can remove them all for you!</li>
+				<h2>+ Can You Help With Lost Passwords?</h2>
+				<li class="faqLi">In most cases our technicians can assist you with resetting a lost password and getting a new one.</li>
+				<h2>+ Are You Those Geeks From Best Buy?</h2>
+				<li class="faqLi">Geek Serv is a local, independently-owned small business based in Seattle - we have no affiliation with Best Buy or Geek Squad.</li></ul></div></div></div>
+<!--#include file="gsFooter.html" -->
+</html>
